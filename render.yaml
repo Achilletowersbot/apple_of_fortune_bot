@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: apple-of-fortune-bot
+    env: python
+    plan: free
+    branch: main
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        value: 7987044763:AAF_3F5DKlXXVzbQkgJ_Sg0BHNmP5G17jzk
+        
